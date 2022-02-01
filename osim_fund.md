@@ -21,3 +21,5 @@ These should be in the format `.osim`. I would reccommned starting with the `gai
 
 ## Scaling
 Scaling is one of the most difficult things in OpenSim, mostly because it is often tedious, frustating, and can take longer than anticipated.
+You will need to scale the `gait2354_simbody.osim` model, or whatever model you have selected, so that it is adjusted for the size of your test subject.
+There are several parameters to scale by, and most of them can be figured out using Tutorial 3 and the YouTube videos uploaded by OpenSim.
