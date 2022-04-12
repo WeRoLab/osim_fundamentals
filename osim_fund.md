@@ -23,3 +23,12 @@ These should be in the format `.osim`. I would reccommned starting with the `gai
 Scaling is one of the most difficult things in OpenSim, mostly because it is often tedious, frustating, and can take longer than anticipated.
 You will need to scale the `gait2354_simbody.osim` model, or whatever model you have selected, so that it is adjusted for the size of your test subject.
 There are several parameters to scale by, and most of them can be figured out using Tutorial 3 and the YouTube videos uploaded by OpenSim.
+
+
+
+# OpenSense Fundamentals
+## Data Collection
+In the process of data collection, there are several necessary steps. The first is attaching the IMUs to the subject so that each label lines up with the subject's body part. This can be done following the labels on the IMU and the image attached.
+
+
+Once all the IMUs have been attached to the subject, the calibration data must be recorded. This requires the subject to stand in a neutral starting pose. Note the time stamp on the IMU data, as this will be necessary later when the files are being loaded.
