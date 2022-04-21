@@ -1,8 +1,9 @@
 # Ignore everything
-*
+*.*
+/Matlab/*.*
 
 # Except
 !.gitignore
 !*.md
 !*.m
-!Matlab/*.m
+!/Matlab/*.m
